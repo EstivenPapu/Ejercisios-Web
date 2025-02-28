@@ -1,0 +1,180 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Sample Web Page
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100 text-gray-800">
+  <!-- Header Section -->
+  <header class="bg-white shadow-md">
+   <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+    <div class="text-2xl font-bold">
+     My Website
+    </div>
+    <nav class="space-x-4">
+     <a class="text-gray-600 hover:text-gray-900" href="#">
+      Home
+     </a>
+     <a class="text-gray-600 hover:text-gray-900" href="#">
+      About
+     </a>
+     <a class="text-gray-600 hover:text-gray-900" href="#">
+      Services
+     </a>
+     <a class="text-gray-600 hover:text-gray-900" href="#">
+      Contact
+     </a>
+    </nav>
+   </div>
+  </header>
+  <!-- Hero Section -->
+  <section class="relative bg-gray-800 text-white">
+   <img alt="A scenic background image with mountains and a clear sky" class="w-full h-full object-cover absolute inset-0 z-0" height="600" src="https://storage.googleapis.com/a1aa/image/TRxlVDdsiUdt6t2RxsZtGjTN91XC_ys_OksPoEq4i1A.jpg" width="1920"/>
+   <div class="container mx-auto px-4 py-32 relative z-10">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">
+     Welcome to My Website
+    </h1>
+    <p class="text-lg md:text-2xl mb-8">
+     We provide the best services for you.
+    </p>
+    <a class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" href="#">
+     Get Started
+    </a>
+   </div>
+  </section>
+  <!-- About Section -->
+  <section class="container mx-auto px-4 py-16">
+   <div class="flex flex-col md:flex-row items-center">
+    <div class="md:w-1/2 mb-8 md:mb-0">
+     <img alt="A team of professionals working together in an office" class="w-full h-auto rounded-lg shadow-md" height="400" src="https://storage.googleapis.com/a1aa/image/ddEev5JmZ8pY1pKGB1DUP0sl_FNCJIhNOwQ3_--j_SI.jpg" width="600"/>
+    </div>
+    <div class="md:w-1/2 md:pl-12">
+     <h2 class="text-3xl font-bold mb-4">
+      About Us
+     </h2>
+     <p class="text-lg mb-4">
+      We are a team of dedicated professionals committed to providing top-notch services to our clients. Our expertise spans across various industries, ensuring that we can meet your needs effectively.
+     </p>
+     <p class="text-lg">
+      Our mission is to deliver exceptional results and build long-lasting relationships with our clients. We believe in the power of collaboration and strive to exceed expectations in every project we undertake.
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Services Section -->
+  <section class="bg-gray-200 py-16">
+   <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">
+     Our Services
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+     <div class="bg-white p-6 rounded-lg shadow-md text-center">
+      <i class="fas fa-laptop-code text-4xl text-blue-500 mb-4">
+      </i>
+      <h3 class="text-2xl font-bold mb-2">
+       Web Development
+      </h3>
+      <p class="text-lg">
+       We create stunning and responsive websites tailored to your business needs.
+      </p>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-md text-center">
+      <i class="fas fa-bullhorn text-4xl text-blue-500 mb-4">
+      </i>
+      <h3 class="text-2xl font-bold mb-2">
+       Digital Marketing
+      </h3>
+      <p class="text-lg">
+       Our marketing strategies will help you reach a wider audience and grow your business.
+      </p>
+     </div>
+     <div class="bg-white p-6 rounded-lg shadow-md text-center">
+      <i class="fas fa-chart-line text-4xl text-blue-500 mb-4">
+      </i>
+      <h3 class="text-2xl font-bold mb-2">
+       SEO Optimization
+      </h3>
+      <p class="text-lg">
+       Improve your website's visibility on search engines with our expert SEO services.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="container mx-auto px-4 py-16">
+   <h2 class="text-3xl font-bold text-center mb-12">
+    Contact Us
+   </h2>
+   <div class="flex flex-col md:flex-row items-center">
+    <div class="md:w-1/2 mb-8 md:mb-0">
+     <img alt="A person holding a phone and a laptop, ready to assist" class="w-full h-auto rounded-lg shadow-md" height="400" src="https://storage.googleapis.com/a1aa/image/mA5rjAkmqGZ45kknpWDGTovgPxzc8EhQ2glbrxoCx3E.jpg" width="600"/>
+    </div>
+    <div class="md:w-1/2 md:pl-12">
+     <form class="space-y-4">
+      <div>
+       <label class="block text-lg font-medium text-gray-700" for="name">
+        Name
+       </label>
+       <input class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" id="name" type="text"/>
+      </div>
+      <div>
+       <label class="block text-lg font-medium text-gray-700" for="email">
+        Email
+       </label>
+       <input class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" id="email" type="email"/>
+      </div>
+      <div>
+       <label class="block text-lg font-medium text-gray-700" for="message">
+        Message
+       </label>
+       <textarea class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" id="message" rows="4"></textarea>
+      </div>
+      <div>
+       <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="submit">
+        Send Message
+       </button>
+      </div>
+     </form>
+    </div>
+   </div>
+  </section>
+  <!-- Footer Section -->
+  <footer class="bg-gray-800 text-white py-6">
+   <div class="container mx-auto px-4 text-center">
+    <p>
+     © 2023 My Website. All rights reserved.
+    </p>
+    <div class="mt-4 space-x-4">
+     <a class="text-gray-400 hover:text-white" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a class="text-gray-400 hover:text-white" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a class="text-gray-400 hover:text-white" href="#">
+      <i class="fab fa-linkedin-in">
+      </i>
+     </a>
+     <a class="text-gray-400 hover:text-white" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
